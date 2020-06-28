@@ -9,6 +9,8 @@
         extracted_emails = extractEmails(emails);
         document.getElementById("txt2").value = extracted_emails;
     }
-    function reset(){
+
+    function reset()
+    {
         document.getElementById("txt2").value = '';
     }
