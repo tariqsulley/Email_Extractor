@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="Javascript/extraction.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+    
+    <title>Email Extractor Program</title>
+ </head>
+
+  <body>
+      <header>
+
+        <div class="Regex">
+          <h1>EMAIL EXTRACTOR</h1>
+        </div>
+     </header>
+
+    <div id="area1">
+        <form>
+            <label class="txtlab">Enter Text:</label>
+            <textarea class="name" type="text" id = "txt1" placeholder="Enter Text Here"></textarea>                            
+        </form>
+    </div>
+
+    <div id="area2">
+        <form>
+            <label class="txtlab"> Edited Text:</label>
+            <textarea class="name" type="text" id= "txt2" placeholder="Text Will Display Here"></textarea>                
+        </form>
+    </div>
+    
+
+     <div class="container">
+            <button class="btn btn1" onclick="extract()" >Extract Emails</button>
+            <button id="rst" onclick="reset()">Reset</button>
+            
+    </div>
+    <script>
+
+
+    </script>
+  </body>
+</html>

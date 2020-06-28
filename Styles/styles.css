@@ -1,0 +1,147 @@
+ 				*{
+ 					font-family: "Comic Sans Ms";
+ 				}
+
+                  header{
+                     padding: 50px 0px;
+                     margin: 0em;
+                     height: 100px;
+                     text-align: center;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     right: 0;
+                     background: linear-gradient(to bottom, #c850c0, #4158d0);
+                     }
+         
+                 h1{
+                     position: absolute;
+                     right: 50vmin;
+                     bottom: 3vmin;
+                     font-family: "Comic Sans Ms";
+                     text-align: center;
+                     font-weight: bold;
+                     font-size: 4em;
+                     color: white;
+                 }
+         
+                 body {
+                     background: white;
+                 }
+                
+                 .container{
+                     text-align: center;
+                     margin-top: 360px;
+                    }
+
+                .btn{
+                    border: 1px solid #3498db;
+                    background: none;
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    cursor: pointer;
+                    margin: 10px;
+                    transition: 0.8s;
+                    position: absolute;
+                    right: 601px;
+                    bottom: 250px;
+                    overflow: hidden;
+                    }
+
+                .btn1{
+                    color: #3498db;
+                    }
+
+                .btn::before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    height: 0%;
+                    background: #3498db;
+                    z-index: -1;
+                    transition: 0.8s;
+                }
+
+                .btn1::before{
+                    top: 0;
+                    border-radius: 0 0 50% 50%;  
+                }
+
+                .btn1:hover{
+                    color: #fff;
+                }
+
+                .btn1:hover::before{
+                    height: 180%;
+                }
+
+                .txtlab{
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+
+              #area1{
+                  border: 10px solid coral;
+                  background: white;
+                  padding: 70px; 
+                  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.5);
+                  width: 300px;
+                  height: 200px;
+                  border-radius: 9px;
+                  position: absolute;
+                  bottom: 50px;
+              }
+         
+              #area2{
+                  background: white;
+                  border: 10px solid coral;
+                  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.5);
+                  padding: 70px;
+                  width: 300px;
+                  height: 200px;
+                  border-radius: 9px;
+                  position: absolute;
+                  right: 10px;
+                  bottom: 50px;
+                 }
+             
+              #area1 textarea:focus{
+                  border: 3px rgb(18, 172, 233);
+                  box-shadow: 0 0 6px rgb(18, 172, 233);
+                }
+         
+              #area2 textarea:focus{
+                  border: 3px rgb(18, 172, 233);
+                  box-shadow: 0 0 6px rgb(18, 172, 233);
+              }
+
+              #txt1 {
+                padding: 50px 70px;
+              }
+
+              #txt2{
+                  padding: 50px 70px;
+              }
+
+              #rst{
+                  background-color: rgb(50,205,50);
+                  border-radius: 9px;
+                  text-align: center;
+                  padding: 5px 670px ;
+                  left: 5px;
+                  position: fixed;
+                  bottom: 0px;
+                  width: 600px;
+            }
+
+            #rst:active {
+                  background-color: rgb(50,205,50);
+                  box-shadow: 0 5px #666;
+                  transform: translateY(4px);
+            }
+
+              #rst:hover{
+                  opacity: 0.8;
+              }
+              
